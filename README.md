@@ -42,9 +42,29 @@ TabNet combines tree-like feature selection with neural network learning, design
   pip install pandas numpy torch pytorch-tabnet scikit-learn matplotlib
 
 ## 4. Usage:
-1. Open and run the Jupyter notebook file:
-   jupyter notebook default-of-credit-card-clients-predictive-models.ipynb
-2. Follow the steps inside the notebook to train and evaluate models.
+### 1. Prepare the environment
+Make sure Python 3.8 or above is installed.
+
+Install required libraries:
+pip install pandas numpy torch pytorch-tabnet scikit-learn matplotlib
+
+
+If you want to reproduce baseline models such as XGBoost or CatBoost:
+pip install xgboost catboost
+
+### 2. Prepare the dataset
+Download or ensure the dataset file `default_of_credit_card_clients.csv` is located in the same folder as the notebook.
+This dataset should have columns such as:
+- `LIMIT_BAL`, `SEX`, `EDUCATION`, `MARRIAGE`, `AGE`
+- `PAY_0` to `PAY_6`
+- `BILL_AMT1` to `BILL_AMT6`
+- `PAY_AMT1` to `PAY_AMT6`
+- `default_payment_next_month` (target)
+
+No manual cleaning is needed if you use the provided notebook.
+
+### 3. Run the notebook
+Open the Jupyter Notebook file:
 
 ## 5. Author:
 Yankai Zhao
