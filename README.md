@@ -42,7 +42,7 @@ TabNet combines tree-like feature selection with neural network learning, design
   pip install pandas numpy torch pytorch-tabnet scikit-learn matplotlib
 
 ## 4. Usage:
-### 1. Prepare the environment
+### Prepare the environment
 Make sure Python 3.8 or above is installed.
 
 Install required libraries:
@@ -52,7 +52,7 @@ pip install pandas numpy torch pytorch-tabnet scikit-learn matplotlib
 If you want to reproduce baseline models such as XGBoost or CatBoost:
 pip install xgboost catboost
 
-### 2. Prepare the dataset
+### Prepare the dataset
 Download or ensure the dataset file `default_of_credit_card_clients.csv` is located in the same folder as the notebook.
 This dataset should have columns such as:
 - `LIMIT_BAL`, `SEX`, `EDUCATION`, `MARRIAGE`, `AGE`
@@ -63,7 +63,7 @@ This dataset should have columns such as:
 
 No manual cleaning is needed if you use the provided notebook.
 
-### 3. Run the notebook
+### Run the notebook
 Open the Jupyter Notebook file:
 
 ## 5. Author:
